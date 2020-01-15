@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- in hbm file pojo object property will be here
+hbm file will be different different for every object 
+whil config file be unique for every object 
+ -->
+
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+
+    <class name="com.Hibernate.PracticeGround.Student" table="">
+        <id name="rollno"> </id>
+        
+        <property name="name" type="java.lang.String">
+            <column name="StdName" />
+            </property>
+
+        <property name="branch" type="java.lang.String">
+            <column name="BranchDetails" />
+        </property>
+        
+       </class>
+    
+</hibernate-mapping>
+
+
+
